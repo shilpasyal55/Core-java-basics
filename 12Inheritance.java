@@ -1,3 +1,7 @@
+//Single level
+//Multilevel
+//Hierarchy
+
 class Animal {
 	String name;
 	public Animal(String name) {

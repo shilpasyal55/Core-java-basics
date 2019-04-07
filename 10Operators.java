@@ -6,28 +6,21 @@ class UnaryOperator {
         // a = a+1 and then c = a; 
         c = ++a; 
         System.out.println("Value of c (++a) = " + c); 
-  
         // post increment operator 
         // c=b then b=b+1 
         c = b++; 
-        System.out.println("Value of c (b++) = " + c); 
-  
+        System.out.println("Value of c (b++) = " + c);  
         // pre-decrement operator 
         // d=d-1 then c=d 
         c = --d; 
-        System.out.println("Value of c (--d) = " + c); 
-  
+        System.out.println("Value of c (--d) = " + c);  
         // post-decrement operator 
         // c=e then e=e-1 
         c = e--; 
-        System.out.println("Value of c (--e) = " + c); 
-  
+        System.out.println("Value of c (--e) = " + c);   
         // Logical not operator 
         System.out.println("Value of !condition =" + !condition); 
-
-    }
-}
-
+}}
 class LogicalOperator {
     int num = 20;
     int num1 = 10;

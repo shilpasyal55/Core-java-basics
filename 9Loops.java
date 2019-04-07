@@ -1,11 +1,10 @@
-class ForLoop {
+private class ForLoop {
 	void executeForLoop() {
 		for (int i = 0; i < 10 ; i ++) {
 			System.out.println(i);
 		}
 	}
 }
-
 class ForEachLoop {
 	int[] marks = {25,78,56,12,10};
 
@@ -15,7 +14,6 @@ class ForEachLoop {
 		}
 	}
 }
-
 class WhileLoop {
 	void executeWhileLoop() {
 		int x = 0; 
@@ -25,7 +23,6 @@ class WhileLoop {
 		}
 	}
 }
-
 class DoWhileLoop {
 	void executeDoWhileLoop() {
 		int x = 0; 

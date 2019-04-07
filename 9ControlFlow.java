@@ -1,7 +1,5 @@
 //IF STATEMENT
-
 class IfStatement {
-
 	public void executeIf(int counter) {
 		if(counter >= 50) { 
 	    	System.out.print("Counter is greater than or equal to 50.");
@@ -12,9 +10,7 @@ class IfStatement {
 		else { 
 		   System.out.println("Counter is less than 30");
 		}
-	}
-}
-
+}}
 class SwitchStatement {
 	String color = "red";
 	public void executeSwitch() {
@@ -27,10 +23,7 @@ class SwitchStatement {
 				break;
 			default:
 				System.out.println("Random Color");
-		}
-	}
-}
-
+}}}
 class TernaryStatement {
 	int findMaximum(int a, int b){
       //if a > b, it returns a, if not it returns b

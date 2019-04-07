@@ -9,6 +9,8 @@ class Car {
 	public int model = 2015;
 
 	public  int getModel() {
+		int b;  //Error, you must initiliaze local variable
+
 		//static int a = 5;  //Error,cannot declare static variables inside the function
 		int a = this.model;  //Error,cannot declare static variables inside the function
 		return a;
