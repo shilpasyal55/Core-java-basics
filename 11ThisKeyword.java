@@ -1,6 +1,7 @@
 //“this” keyword can be used inside the constructor to call another
 // overloaded constructor in the same Class. It is called the Explicit Constructor Invocation. 
-
+//this reference cannot be used in a static context, as static code is not executed
+// in the context of any object
 class ThisKeywordInConstructor {
 	ThisKeywordInConstructor() {
 		//call to this must be first statement in constructor
