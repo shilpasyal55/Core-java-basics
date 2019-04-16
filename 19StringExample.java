@@ -23,5 +23,27 @@ class StringExample {
 
 		//string values are same
 		System.out.println(str1.equals(str4)); //true
+
+		//Triming trailing and leading spaces
+		String name = " shilpa syal ";
+		System.out.println(name.trim());
+
+		//Split the String 
+		String company = "nugen,Services";
+		String []arr = company.split(",");
+		System.out.println(arr[0]);
+
+		//Get substring from String
+		String s = "Phone number: 823783784";
+		String sub = s.substring(6,10);
+		System.out.println(sub);
+
+		char arrch[]={'h','e','l','l','o'}; 
+		//converting char array arrch[] to string str2
+		String str5 = new String(arrch); 
+		System.out.println(str5);
+
+		//convert string to UpperCase
+		System.out.println(str1.toUpperCase());
 	}
 }
